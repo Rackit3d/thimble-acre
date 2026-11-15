@@ -1,0 +1,18 @@
+@font-face { font-family: "Kenney Pixel"; src: url("kenney-pixel.ttf") format("truetype"); font-display: swap; }
+:root { --paper: #f6ecd9; --card: #fffaf0; --ink: #3b2a1e; --soft: #6b5442; --line: #d9c4a3; --green: #4f8a3a; }
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body { margin: 0; color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { text-align: center; margin-bottom: 24px; }
+header img.logo { width: min(360px, 80%); height: auto; image-rendering: pixelated; }
+h1, h2 { font-family: "Kenney Pixel", ui-monospace, monospace; font-weight: normal; line-height: 1.1; }
+h1 { font-size: 40px; margin: 8px 0 4px; }
+h2 { font-size: 30px; margin: 32px 0 6px; }
+p, li { color: var(--soft); }
+.card { background: var(--card); border: 3px solid var(--line); border-radius: 6px; padding: 20px 22px; }
+.shot { width: 100%; height: auto; border: 3px solid var(--line); border-radius: 6px; image-rendering: pixelated; display: block; margin: 20px 0; }
+a { color: var(--green); }
+nav { text-align: center; margin-top: 40px; font-size: 15px; }
+nav a { margin: 0 10px; }
+small { color: var(--soft); }
